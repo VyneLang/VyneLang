@@ -1,0 +1,23 @@
+fn main() -> Result<void, string> {
+    let mut message: string = "Hello, Vyne!";
+    print(message);
+
+    let borrowed_message = &message;
+    print(*borrowed_message);
+
+    let number: int = 42;
+    let another_number = 24; // Type inferred
+
+    var dynamic_variable = "Can be anything";
+    dynamic_variable = 100; // Now it's an int
+
+    interface User {
+        name: string,
+        age: int
+    }
+
+    let user: User = { name: "Alice", age: 30 };
+    print(user.name);
+
+    Ok()
+}
