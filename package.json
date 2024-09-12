@@ -1,0 +1,24 @@
+{
+  "name": "vynelang",
+  "version": "0.2.8-rc-3",
+  "description": "The oficial Vyne Interpreter",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js ./example/test.vyne"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vynelang/vynelang.git"
+  },
+  "keywords": [
+    "Vyne",
+    "Code",
+    "Programming"
+  ],
+  "author": "Miguel V.",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/vynelang/vynelang/issues"
+  },
+  "homepage": "https://github.com/vynelang/vynelang#readme"
+}

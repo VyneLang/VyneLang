@@ -1,0 +1,9 @@
+// Example Vyne code
+let x = 10;
+
+scoop {
+    let y = 20;
+    show.text("Inside scoop: ", x, ", ", y);
+}
+
+show.text("Outside scoop: ", x);
