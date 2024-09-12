@@ -1,0 +1,14 @@
+{
+  "name": "vynelang",
+  "module": "src/repl.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "pkg": "^5.8.1"
+  }
+}
